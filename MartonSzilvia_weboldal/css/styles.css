@@ -1,0 +1,143 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/hatter_ismetlodve_fele2.png);
+    background-repeat: repeat;
+}
+
+p {
+    text-align: justify;
+}
+
+li {
+    text-align: justify;
+}
+
+table {
+    text-align: center;
+    border: 1px solid;
+}
+
+
+td {
+    border: 1px solid;
+}
+
+label {
+    margin-bottom:none;
+    padding: none;
+}
+
+
+.footerlink {
+    color: darkblue;
+    text-decoration: underline;
+}
+.footerlink:hover {
+    color: darkred;
+}
+.footerlink:visited {
+    color: orange;
+}
+.footerlink:active {
+    color: yellow;
+}
+/* CLASSES*/
+.logo {
+    width: 15%;
+}
+
+.oldalkozepe {
+    background-color: #F5EEDC;
+    border: 0px;
+    padding: 1em;
+}
+
+.lablec{
+    background-color: #4F091D;
+}
+
+.tamogato {
+    width: 10em;
+    margin: 0.5em 0px;
+}
+
+.nyuszitartaskepek {
+    width: 18em;
+    float: right;
+    border-radius: 25px;
+    padding: 1em;
+}
+
+.card {
+    display: inline-block;
+    margin: 0.5em;
+    
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.gazdikeresok {
+    margin: 1em;
+}
+
+.btn {
+    margin: 1em;
+}
+
+input[type=submit] {
+    background-color: #df4759;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 6em;
+  }
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit]:hover {
+    background-color: #d66875;
+}
+
+input[type=reset] {
+    background-color: #db6573;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 6em;
+}
+
+input[type=reset]:hover {
+    background-color: #d68992;
+}
+.oldalsoikonok{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center_oldalsoikonok{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.promo{
+    text-align: center;
+}

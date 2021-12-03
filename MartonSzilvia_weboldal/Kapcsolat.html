@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="images/nyuszilogo.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Írj nekünk - Nyúlmentő alapítvány</title>
+  </head>
+  
+  <body>
+<!--- *NAVBAR KEZDETE--->
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <a class="navbar-brand" href="Index.html"><img class="logo" src="images/logo_rem.png" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> 
+    <ul class="navbar-nav ml-auto">
+        <li class="navbar-item">
+            <a class="nav-link text-dark" href="Index.html"><strong>Kezdőlap</strong></a>
+        </li>
+        <li class="navbar-item">
+            <a class="nav-link text-dark" href="Tartas.html"><strong>Nyúltartás</strong></a>
+        </li>
+        <li class="navbar-item">
+            <a class="nav-link text-dark" href="Gazdikereso.html"><strong>Gazdikeresők</strong></a>
+        </li>
+        <li class="navbar-item">
+            <a class="nav-link text-warning" href="Kapcsolat.html"><strong>Írj nekünk!</strong></a>
+        </li>
+    </ul>
+    </div>
+</nav>
+<!--- *NAVBAR VÉGE--->
+
+<!--- *FEJLÉC KEZDETE --->
+<header>
+<div class="row-md-12">
+    <img class="img-fluid" src="images/fejlec1.jpg" alt="Fejléc">
+</div>  
+</header>
+
+<!--- *FEJLÉC VÉGE --->
+
+<!--- OLDAL TÖRZS KEZDETE --->
+<div class="container oldalkozepe">
+    <div class="row">
+        <div class="col-lg-9 col-md-9">
+            <article>
+                <figure>
+                    <img class="img-fluid" src="images/kapcsolat.jpg" alt="Kapcsolatnyuszi-img">
+                </figure>
+                <h1>Kapcsolat</h1>
+                <p>Kérem, töltsön ki minden mezőt a sikeres üzenetküldéshez.</p>
+                <div class="container">
+                    <form action="" method="post">
+                      <label for="tnev">Teljes Név:</label>
+                      <input type="text" id="tnev" name="teljesnev" placeholder="Példa Béla" style="width:100%" maxlength="85"><br>
+                      
+                      <label for="tema">Téma:</label>
+                      <select id="tema" name="tema">
+                        <option value="orokbe">Örökbe szeretnék fogadni egy nyuszit!</option>
+                        <option value="leadas">Sajnos nem tudom tovább tartani a nyuszimat…</option>
+                        <option value="talalt">Nyuszit találtam!</option>
+                        <option value="adomanyozni">Adományoznék, segíteném a munkátokat! </option>
+                        <option value="allatkinzas">Állatkínzás bejelentése</option>
+                        <option value="egyeb">Egyéb</option>
+                      </select><br>
+
+                      <label for="uzenet">Üzenet:</label>
+                      <textarea id="uzenet" name="uzenet" placeholder="Írjon valamit..." style="height:100px" maxlength="255"></textarea><br>
+
+                      <input type="checkbox" id="beleegyezés" name="beleegyezés" value="Beleegyezem">
+                      <label for="beleegyezés">Tudomásul veszem, hogy az üzenetemet továbbíthatják harmadi félnek</label><br>
+
+                      <input type="radio" id="hirlevel" name="hirlevel_pref" value="Hírlevél" checked>
+                      <label for="hirlevel">Feliratkozom a hírlevélre</label><br>
+                      <input type="radio" id="hirlevel" name="hirlevel_pref" value="NemHirlevél">
+                      <label for="hirlevel">Inkább lemaradok a hírekről</label><br>
+                      
+                      <input type="reset" value="Reset" class="kapcsolatbuttons">                
+                      <input type="submit" value="Küldés" class="kapcsolatbuttons">
+
+                  
+                    </form>
+                  </div>
+            </article>
+        </div>
+        <!--- *OLDALSÁV (paypal, facebook) KEZDETE --->
+        <div class="col-lg-3 col-md-3">
+            <section>
+                    <aside class="promo"><a href="http://www.atlathatosag.eu/hu/mukodes/etikai_kodex.html" target="blank"><img class="img-fluid" src="images/easz.png" alt="Etikus adománygyűjtő szervezet-img"></a></aside>
+                    <aside class="promo"><a href="https://www.paypal.com/donate/?token=ZtD97xofdn16FA3yfIOBIk9yQVs_L2hQ0H-xXjNAjQiOLoaQMVLRLKUADbazE8Uh21IQIDK4Z41TVZQA&locale.x=hu_HU" class="btn btn-danger" target="blank">Adományozás</a></aside>
+                    <aside class="promo"><a href="https://www.paypal.com/donate/?token=TKplXB6X84g9Mg2sme7zZ-JFAcReKPuQCz7xCUzlaAwapFbq_gLMDLnnGX_ynjA0TAkCciPhAohSSDug&locale.x=hu_HU" target="blank"><img src="images/PP_Acceptance_Marks_for_LogoCenter_150x94.png" alt="Paypal-img"></a></aside>
+                    <aside class="promo"><a href="https://www.paypal.com/donate/?token=4F0HXAw1B6RHzIX9kxgY2AynN4Vslja67BMWoGOmg4Iks8-NKLeS0QDpa5Yh5gUtoGqoXCCjJqLDiQjf&locale.x=hu_HU" target="blank"><img src="images/btn_donateCC_LG.png" alt="Donate-img+link"></a></aside>
+            </section>
+            <section>
+                <p><strong>Támogatóink:</strong></p>
+                    <aside class="promo"><a href="https://binky.hu" target="blank"><img class="tamogato" src="images/t1.png" alt="Binky-tamogato"></a></aside>
+                    <aside class="promo"><a href="https://dtrbunny.hu" target="blank"><img class="tamogato" src="images/t2.png" alt="DTRBunny-tamogato"></a></aside>
+                    <aside class="promo"><a href="https://www.exopet.hu" target="blank"><img class="tamogato" src="images/t3.jpg" alt="ExoPet-tamogato"></a></aside>
+                    <aside class="promo"><a href="https://www.focus-vet.hu" target="blank"><img class="tamogato" src="images/t4.png" alt="FocusVetClinic-tamogato"></a></aside>
+                    <aside class="promo"><a href="https://fumarket.hu" target="blank"><img class="tamogato" src="images/t5.png" alt="Fumarket-tamogato"></a></aside>
+                    <aside class="promo"><a href="https://www.nyuszishop.hu" target="blank"><img class="tamogato" src="images/t6.jpg" alt="Nyuszishop-tamogato"></a></aside>
+                    <aside class="promo"><a href="https://www.nethely.hu" target="blank"><img class="tamogato" src="images/t7.png" alt="Nethely-tamogato"></a></aside>
+                    <aside class="promo"><a href="https://www.facebook.com/Worm-Team-111222767035487/" target="blank"><img class="tamogato" src="images/t8.jpg" alt="Worm-tamogato"></a></aside>
+            </section>
+            </div>
+            <!--- *OLDALSÁV (paypal, facebook) VÉGE --->
+        </div>
+    </div>
+    <!--- OLDALKÖZEPE VÉGE --->
+    
+    <!--- *FOOTER + Támogatóink KEZDETE --->
+    <footer class="text-center text-lg-start bg-danger">
+        <div class="text-center p-4">
+            <section>
+                <article>
+                    <strong>Nem hivatalos oldal! </strong>
+                    Hivatalos oldal - <a href="https://nyulmentoalapitvany.hu">https://nyulmentoalapitvany.hu</a>
+                </article>
+            </section>
+            <section>
+                <p><em>Készítette: Marton Szilvia</em></p>
+            </section>
+        </div>
+    </footer>
+    <!--- *FOOTER + Támogatóink VÉGE --->
+    
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+    </html>
